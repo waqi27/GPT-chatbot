@@ -1,7 +1,6 @@
 # ai Chat Application
 
 A full-stack application that provides an interface to interact with DeepSeek AI through OpenRouter API.
-Use this application using this link - https://chatbot-api-ashy.vercel.app/
 ## Project Structure
 
 
