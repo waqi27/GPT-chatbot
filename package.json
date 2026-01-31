@@ -1,0 +1,16 @@
+{
+  "name": "chatbot-fullstack",
+  "version": "1.0.0",
+  "description": "Fullstack Chatbot Application",
+  "scripts": {
+    "install-all": "npm install && cd Frontend && npm install && cd ../Backend && npm install",
+    "client": "cd Frontend && npm run dev",
+    "server": "cd Backend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd Frontend && npm run build",
+    "start": "cd Backend && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
